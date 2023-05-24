@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Game Stalker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="no_games_found">No games found</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account_sign_up_here">No Account? Sign Up Here!</string>
+    <string name="retype_your_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered_sign_in">Already Registered? Sign In!</string>
+    <string name="register">Register</string>
+    <string name="profile">Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="type_your_username">Type your Username</string>
+    <string name="nr_of_reviews">reviews</string>
+    <string name="add_review">Add review</string>
+    <string name="game">Game</string>
+    <string name="link">Link</string>
+    <string name="write_your_review">Write your review</string>
+    <string name="upload_review">Upload Review</string>
+    <string name="games">Games</string>
+    <string name="reviews">Reviews</string>
+    <string name="no_reviews_found">No reviews found!</string>
+    <string name="my_reviews">My Reviews</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/games"
+        android:id="@+id/games"
+        android:icon="@drawable/baseline_videogame_asset_24"/>
+    <item android:title="@string/profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title="@string/reviews"
+        android:id="@+id/reviews"
+        android:icon="@drawable/baseline_reviews_24"/>
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "379431797657",
+    "project_id": "gamestalker-17f46",
+    "storage_bucket": "gamestalker-17f46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379431797657:android:cb6bb5143be943f3f3c908",
+        "android_client_info": {
+          "package_name": "com.example.gamestalker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379431797657-a06nmvub8trmj4qoft341paqqle4lguh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamestalker",
+            "certificate_hash": "dcc10f47c4a7c385e332ee1cc4b0c65b9c353dc1"
+          }
+        },
+        {
+          "client_id": "379431797657-mb17jl3vf0bfcid93eh0fc1cs6eu5mjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC2jxZGO1xCF4ikZNPpeZPzqk7A5QYpPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379431797657-mb17jl3vf0bfcid93eh0fc1cs6eu5mjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
