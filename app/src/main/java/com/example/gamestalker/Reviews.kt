@@ -87,20 +87,6 @@ class Reviews : Fragment() {
 
         reviewList = arrayListOf()
         getReviewData()
-
-        val firebaseAuth = FirebaseAuth.getInstance()
-
-        // Showing different messages if there are no reviews found or if the user is not logged in
-        if (firebaseAuth.currentUser == null) {
-            noReviewFound.text = "Cannot see reviews without logging in!"
-            recyclerView.visibility = View.GONE
-            myReviews.visibility = View.GONE
-            noReviewFound.visibility = View.VISIBLE
-        }
-        else {
-            noReviewFound.visibility = View.GONE
-        }
-
     }
 
 
@@ -120,9 +106,24 @@ class Reviews : Fragment() {
                             reviewList.add(retrievedReview!!)
                         }
                     }
+                    val firebaseAuth = FirebaseAuth.getInstance()
+
+                    // Showing different messages if there are no reviews found or if the user is not logged in
+                    if (firebaseAuth.currentUser == null) {
+                        noReviewFound.text = "Cannot see reviews without logging in!"
+                        recyclerView.visibility = View.GONE
+                        myReviews.visibility = View.GONE
+                        noReviewFound.visibility = View.VISIBLE
+                    }
+                    else if (reviewList.isEmpty()) {
+                        noReviewFound.text = "No reviews to show"
+                        noReviewFound.visibility = View.VISIBLE
+                    }
+                    else {
+                        noReviewFound.visibility = View.GONE
+                    }
                     recyclerView.adapter = adapter
                 }
-
             }
 
             override fun onCancelled(error: DatabaseError) {
